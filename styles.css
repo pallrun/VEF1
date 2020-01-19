@@ -1,0 +1,36 @@
+body {
+    max-width: 60em;
+    color: 1px solid blue; /* -width -style -color */
+    margin: 1em auto; /* top + bottom / left + right */
+    padding: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+ul li {
+    color: green;
+}
+a {
+    color: red;
+    background-color: yellow;
+}
+a:visited {
+    color: yellow;
+    background-color: red;
+}
+a:hover, a:active {
+    color: red;
+    background-color: black;
+}
+.ljod {
+    margin-left: 3em;
+}
+.ljod p {
+    font-style: italic;
+    color:darkblue;
+}
+.ljod strong {
+    color: red;
+}
