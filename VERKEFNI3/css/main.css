@@ -1,0 +1,77 @@
+/* Whole page */
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    max-width: 90%;
+}
+
+/* Footer */
+
+footer {
+    background-color: #383737;
+    color: white;
+    padding: 0.3em;
+    padding-left: 2em;
+    font-size: 1.2em;
+    font-family: "Trebuchet";
+}
+
+/* Links */
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: mediumpurple !important;
+}
+
+a:hover {
+    color: darkgray !important;
+}
+
+a:active {
+    color: dimgray !important;
+}
+
+/* Various tags */
+
+em {
+    color: darkred;
+}
+
+header {
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: 1.1em !important;
+}
+
+/* Grid */
+
+.grid-area {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.grid-area div,
+.grid-area section {
+    padding: 10px;
+    border: solid 1px;
+    font-size: 1em;
+}
+
+.navbar {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    padding: 1em;
+    background-color: #383737;
+    font-size: 1.2em;
+}
+
+.bigcolumn {
+    grid-column: 2 / 10;
+}
