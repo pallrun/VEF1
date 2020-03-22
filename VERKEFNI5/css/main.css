@@ -1,0 +1,140 @@
+/* Whole Page */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(darkgray, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    font-family: sans-serif;
+    line-height: 1.5em;
+}
+
+/* Head, foot and nav */
+
+.head {
+    background: linear-gradient(darkred, black);
+    display: grid;
+    grid-auto-flow: column;
+    padding: 1em;
+    color: white;
+    text-transform: uppercase;
+}
+
+.head div {
+    max-width: 60%;
+    margin: auto;
+}
+
+.headTitle {}
+
+.nav {
+    text-align: right;
+}
+
+.navText {
+    margin-top: 2em;
+    background: darkred;
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+}
+
+.navText a {
+    color: white;
+    padding: 0.1em;
+}
+
+.foot {
+    background: linear-gradient(darkred, black);
+    color: white;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.foot nav {
+    max-width: 60%;
+    margin: auto;
+}
+
+.foot dt {
+    color: yellow;
+}
+
+.copy {
+    background: linear-gradient(darkred, black);
+    margin: auto;
+    padding: 1em;
+    padding-right: 10%;
+    color: white;
+    text-align: right;
+}
+
+/* Links */
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+/* Various Classes */
+
+.wrap {
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+    min-height: 100vh;
+    display: table;
+}
+
+.mainText {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.mainText h1,
+.mainText h3 {
+    color: darkred;
+}
+
+.mainText blockquote {
+    background-color: #ff000078;
+    padding: 1em;
+}
+
+.mainText a {
+    color: gray;
+}
+
+.mainText a:hover {
+    color: lightgray;
+}
+
+.goTop {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    font-size: 2em;
+    color: blue;
+    padding: 10px;
+    border-radius: 100%;
+    background: white;
+}
+
+.altText {
+    display: grid;
+    grid
+}
+
+.altText h1 {
+    color: darkred;
+}
