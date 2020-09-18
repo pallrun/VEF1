@@ -1,0 +1,26 @@
+.body {
+    padding: 24px;
+    margin: 0 auto;
+}
+
+#form {
+    animation: changeColor 3s infinite;
+    transform-box: fill-box;
+}
+
+@keyframes changeColor {
+    0% {
+        fill: red;
+        transform: translateY(0);
+    }
+    100% {
+        fill: blue;
+        transform: translateY(-20px);
+    }
+    from {
+        transform: rotateZ(-30deg);
+    }
+    to {
+        transform: rotateZ(0deg);
+    }
+}
