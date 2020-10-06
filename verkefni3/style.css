@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(44,47,51);
+}
+
+input{
+  display: none;
+}
+
+nav{
+  display: none;
+}
+
+input:checked ~ nav{
+  display: block;
+}
+
+ul li{
+  display: block;
+}
+
+@media screen and (min-width: 48em){
+  label{
+    display: none;
+  }
+  
+  nav{
+    display: block;
+  }
+  ul li{
+    display: inline-block;
+  }
+}
+
+nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid rgb(148, 147, 147);
+}
+ 
+nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .4s background-color;
+}
+ 
+nav a:hover {
+  background-color: #006e6e;
+}
+
+
+nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+#takkin {
+  animation-name: spin;
+  animation-duration: 100ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform-origin:15.887px 29.88px;
+  animation-play-state: paused;
+}
+
+svg:hover #takkin {
+  animation-play-state: running;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(10deg);
+  }
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 29, 56);
+  color: white;
+  text-align: center;
+}
