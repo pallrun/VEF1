@@ -1,0 +1,35 @@
+thead{
+    font-family: 'times new roman', 'Times New Roman', Times, serif;
+    color: blue;
+    font-size: 1.5em;
+}
+
+table caption{
+    font-size: 1.3em;
+}
+
+table{
+    background-color: lightgrey;
+    border: 0;
+}
+
+table thead{
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    padding: 0;
+}
+
+table th{
+    border: 1px solid rgb(32, 74, 129);
+}
+
+table tr{
+    border-bottom: 3px solid #ddd;
+    margin-bottom: .625em;
+    display: block;
+}
