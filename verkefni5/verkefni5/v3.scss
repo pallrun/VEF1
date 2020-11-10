@@ -1,0 +1,69 @@
+@import "litir";
+body{
+    background: $litur4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    position: absolute;
+    bottom: -120px;
+    width: 100%;
+}
+/*
+nav ul{
+    overflow: hidden;
+}
+*/
+input:checked ~ nav{
+    /*display: block;*/
+    top: 450px;
+}
+
+ul{
+    background: $litur2;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    display: block;
+    margin: 5px;
+    text-align: center;
+    border-bottom: 0.5px solid $litur3;
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $litur3;
+}
+
+@media screen and (min-width: 600px) {
+    body{
+        margin: 0px;
+    }
+    nav{
+        position: absolute;
+        top: 340px;
+        left: 0px;
+        width: 100%;
+        display: block;
+    }
+    ul{
+        background: $litur2;
+        margin: 0;
+        padding: 0;
+    }
+    ul li{
+        display: inline-block;
+        padding: 5px;
+        border: 0px;
+    }
+    a{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $litur3;
+    }
+    p{
+        margin-top: 3em;
+    }
+}
